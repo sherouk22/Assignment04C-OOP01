@@ -9,6 +9,25 @@ namespace Assignment04OOP01
 
             //Part01
 
+            #region Q1 Ex01   we have learned in the lecture.
+
+
+            //Person person = new Person();
+
+            //person.Id = 1;
+            //person.Name = "sherouk";
+            //person.Gender = Gender.Female;
+            //Console.WriteLine(person.Gender);
+
+            //Grades grades =Grades.A;
+
+            //if (grades == Grades.A)
+            //    Console.WriteLine("Excellecnt");
+            //else
+            //    Console.WriteLine("Good louk Next Time..");
+
+
+
             //Gender gender = Gender.Female;
             //Console.WriteLine(gender);
 
@@ -18,69 +37,74 @@ namespace Assignment04OOP01
             //Branch branch = Branch.Maadi;
             //Console.WriteLine(branch);
 
+            #endregion
 
 
             #region Q1 Ex02   we have learned in the lecture.
 
 
-            Student student = new Student();
-            bool flage;
-            Console.WriteLine("Please Enter Student Data..");
-            Console.WriteLine("Id--> ");
-            int id;
-            do
-            {
+            //Student student = new Student();
+            //bool flage;
+            //Console.WriteLine("Please Enter Student Data..");
+            //Console.WriteLine("Id--> ");
+            //int id;
+            //do
+            //{
 
-                flage =int.TryParse(Console.ReadLine(), out id);
+            //    flage =int.TryParse(Console.ReadLine(), out id);
 
-            } while (!flage);
+            //} while (!flage);
 
-              student.Id = id;
+            //  student.Id = id;
 
-            Console.WriteLine("Name--> ");
-            student.Name = Console.ReadLine();
-
-
-            Console.WriteLine("Gender--> ");
-            object gender;
-            do
-            {
-
-                flage = Enum.TryParse(typeof(Gender),Console.ReadLine(),true , out gender);
-
-            } while (!flage);
-
-            student.Gender = (Gender)gender;
+            //Console.WriteLine("Name--> ");
+            //student.Name = Console.ReadLine();
 
 
-            Console.WriteLine("Grade--> ");
-            object grade;
-            do
-            {
+            //Console.WriteLine("Gender--> ");
+            //object gender;
+            //do
+            //{
 
-                flage = Enum.TryParse(typeof(Grades), Console.ReadLine(),true ,out grade);
+            //    flage = Enum.TryParse(typeof(Gender),Console.ReadLine(),true , out gender);
 
-            } while (!flage);
+            //} while (!flage);
 
-            student.Grades = (Grades)grade;
-
-            Console.WriteLine(student.Gender);
+            //student.Gender = (Gender)gender;
 
 
-            Console.WriteLine("Branch--> ");
-            object branch;
-            do
-            {
+            //Console.WriteLine("Grade--> ");
+            //object grade;
+            //do
+            //{
 
-                flage = Enum.TryParse(typeof(Branch), Console.ReadLine(),true , out branch);
+            //    flage = Enum.TryParse(typeof(Grades), Console.ReadLine(),true ,out grade);
 
-            } while (!flage);
+            //} while (!flage);
 
-            student.Branch = (Branch)branch;
+            //student.Grades = (Grades)grade;
 
-            Console.WriteLine($" id = {student.Id} , Name = {student.Name} ,  Gender = {student.Gender}  ,  Grade {student.Grades}  , Branch = {student.Branch}");
+            //Console.WriteLine(student.Gender);
+
+
+            //Console.WriteLine("Branch--> ");
+            //object branch;
+            //do
+            //{
+
+            //    flage = Enum.TryParse(typeof(Branch), Console.ReadLine(),true , out branch);
+
+            //} while (!flage);
+
+            //student.Branch = (Branch)branch;
+
+            //Console.WriteLine($" id = {student.Id} , Name = {student.Name} ,  Gender = {student.Gender}  ,  Grade {student.Grades}  , Branch = {student.Branch}");
 
             #endregion
+
+
+
+
 
 
 
