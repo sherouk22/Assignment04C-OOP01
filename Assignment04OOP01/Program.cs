@@ -102,15 +102,28 @@ namespace Assignment04OOP01
 
             #endregion
 
+            //Part02
+
+            #region  1.Create an enum called "WeekDays" with the days of the week(Monday to Sunday) as its members.Then, write a C# program that prints out all the days of the week using this enum.
+
+            //Console.WriteLine("Days of the Week:");
+            //foreach (WeekDays day in Enum.GetValues(typeof(WeekDays)))
+            //{
+            //    Console.WriteLine(day);
+            //}
+
+        #endregion
+
+
+        #region MyRegion
+
+        #endregion
 
 
 
 
 
 
-
-
-
-        }
+    }
     }
 }
