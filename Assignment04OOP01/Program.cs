@@ -112,18 +112,46 @@ namespace Assignment04OOP01
             //    Console.WriteLine(day);
             //}
 
-        #endregion
+            #endregion
 
 
-        #region MyRegion
+            #region   2.Create an enum called "Season" with the four seasons (Spring, Summer, Autumn, Winter) as  its members. Write a C# program that takes a season name as input from the user and displays the corresponding month range for that season. Note range for seasons ( spring march to may , summer june to august , autumn September to November , winter December to February)
 
-        #endregion
+            //Console.WriteLine("Enter a season :");
+            //string input = Console.ReadLine();
+            //string output = "";
+            //if (Enum.TryParse(input, true, out Season season))
+            //{
+
+            //    switch (season)
+            //    {
+            //        case Season.Spring:
+            //            output = "March to May";
+            //            break;
+            //        case Season.Summer:
+            //            output = "June to August";
+            //            break;
+            //        case Season.Autumn:
+            //            output = "September to November";
+            //            break;
+            //        case Season.Winter:
+            //            output = "December to February";
+            //            break;
+            //    }
+            //    Console.WriteLine($"The month range for {season} is: {output} ");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(" Please enter Spring, Summer, Autumn, Winter");
+            //}
+
+            #endregion
 
 
 
 
 
 
-    }
+        }
     }
 }
