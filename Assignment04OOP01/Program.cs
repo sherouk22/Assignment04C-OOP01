@@ -147,7 +147,30 @@ namespace Assignment04OOP01
 
             #endregion
 
+            #region 3.Assign the following Permissions (Read, write, Delete, Execute) in a form of Enum.Create Variable from previous Enum to Add and Remove Permission from variable, check if specific Permission is existed inside variable
 
+            //User user = new User();
+            //user.Id = 1;
+            //user.Permissions = (Permissions)3;
+            //Console.WriteLine(user.Permissions);
+            //Console.WriteLine(user.Permissions &= Permissions.Delete);
+            //user.Permissions ^= Permissions.Delete;
+            //Console.WriteLine(user.Permissions);
+            //user.Permissions |= Permissions.Execute;
+            //Console.WriteLine(user.Permissions);
+
+            #endregion
+
+            #region 4.Create an enum called "Colors" with the basic colors (Red, Green, Blue) as its members. Write a C# program that takes a color name as input from the user and displays a message indicating whether the input color is a primary color or not.
+
+            Console.WriteLine("Enter a Colore :");
+            string input = Console.ReadLine();
+            if (Enum.TryParse(input, true, out Colors color))
+                Console.WriteLine($"{color} is a primary color ");
+            else
+                Console.WriteLine($"{input} is not a primary color ");
+
+            #endregion
 
 
 
